@@ -1,5 +1,6 @@
-import image3 from "../assets/images/image-3.jpg";
 import { GoArrowUpRight } from "react-icons/go";
+
+import Courosel from "./Courosel";
 
 export default function About() {
   return (
@@ -15,9 +16,9 @@ export default function About() {
           </h2>
         </div>
 
-        <div className="w-full lg:flex flex-row-reverse gap-8">
+        <div className="w-full lg:flex flex-row-reverse gap-8 lg:gap-16">
           <div className="lg:w-1/2 mb-10">
-            <img src={image3} alt="" className="w-full rounded-xl" />
+            <Courosel />
           </div>
           <div className="flex flex-col gap-4 md:gap-6 lg:w-1/2 lg:text-xl text-[#555]">
             <p>
